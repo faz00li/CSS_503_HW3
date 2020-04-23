@@ -1,0 +1,5 @@
+javac DateServer.java -> compile java program
+java DateServer -> run java program
+ps -p 63819 -o comm= -> return name of process running at process number
+netstat -vanp tcp | grep 6013 -> return process number running on port
+kill <process number> -> end process specified by number
